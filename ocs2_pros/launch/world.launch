@@ -1,0 +1,16 @@
+<launch>
+    <param name="legged_robot_description" textfile="$(find ocs2_pros)/urdf/pros.urdf"/>
+
+    <!-- <param name="legged_robot_description" textfile="$(find ocs2_pros)/urdf/a1.urdf"/> -->
+
+    <rosparam file="$(find ocs2_pros)/urdf/default.yaml" command="load"/>
+    
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="$(find ocs2_pros)/urdf/empty.world"/>
+    </include>
+
+    <!-- push robot_description to factory and spawn robot in gazebo -->
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" clear_params="true"
+          args="-z 2 -param legged_robot_description -urdf -model a1" output="screen"/>
+
+</launch>
