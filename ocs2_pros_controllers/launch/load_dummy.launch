@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="ocs2_pros_controllers" type="pros_dummy_mrt_node" name="pros_dummy_mrt_node" launch-prefix="gnome-terminal --" />
+</launch>

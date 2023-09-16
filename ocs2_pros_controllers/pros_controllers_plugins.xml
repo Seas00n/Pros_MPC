@@ -1,0 +1,9 @@
+<library path="lib/libocs2_pros_controllers">
+
+    <class name="pros/ProsController" type="pros::ProsController"
+           base_class_type="controller_interface::ControllerBase">
+        <description>
+            The basic legged controller.
+        </description>
+    </class>
+</library>

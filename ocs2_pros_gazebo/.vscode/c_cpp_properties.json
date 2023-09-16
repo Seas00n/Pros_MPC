@@ -21,6 +21,7 @@
         "/home/yuxuan/Downloads/ocs2_ws/src/ocs2/ocs2_mpc/include/**",
         "/home/yuxuan/Downloads/ocs2_ws/src/ocs2/ocs2_oc/include/**",
         "/home/yuxuan/Downloads/ocs2_ws/src/ocs2/ocs2_pinocchio/ocs2_pinocchio_interface/include/**",
+        "/home/yuxuan/Downloads/ocs2_ws/src/Pros_MPC/ocs2_pros_controllers/include/**",
         "/home/yuxuan/Downloads/ocs2_ws/src/Pros_MPC/ocs2_pros_interface/include/**",
         "/home/yuxuan/Downloads/ocs2_ws/src/ocs2/ocs2_test_tools/ocs2_qp_solver/include/**",
         "/home/yuxuan/Downloads/ocs2_ws/src/ocs2_robotic_assets/include/**",
